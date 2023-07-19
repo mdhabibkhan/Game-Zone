@@ -438,6 +438,24 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
      }
+     /* play section start here */
+     .play-content{
+        margin: 0%;
+        width: 100%;
+     }
+     .play-container{
+        flex-direction: column;
+     }
+     .play-img2{
+        margin-right: 1000px;
+        margin-top: 600px;
+        
+     }
+     .play-img{
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+     }
 }
 
 
