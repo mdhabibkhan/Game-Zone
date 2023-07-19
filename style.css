@@ -17,12 +17,12 @@ nav{
 .nav-container{
     display: flex;
     align-items: center;
-    margin-left: 240px;
+    margin-left: 200px;
     gap: 16px;
 }
 ul{
     display: flex;
-    margin-right: 240px;
+    margin-right: 200px;
     align-items: center;
 }
 li a{
@@ -50,12 +50,86 @@ color: #FF42A5;
     margin: 0px 10px;
 }
 
+/* nav section end here */
+
+/* banner section start here */
+
+.banner-section{
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+
+}
+.banner-content{
+    margin-left: 200px;
+}
+
+.banner-heading{
+    color: #0B0223;
+    font-size: 48px; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-game{
+    font-size: 95px; 
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FF42A5;
+}
+.des{
+    color: #534C64;  
+}
+
+.icon-banner{
+    margin: 10px 12px;
+}
+.banner-btn1{
+    padding: 21px 40px; 
+    gap: 10px;
+    align-items: flex-start;
+    display: inline-flex;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+font-size: 20px;
+font-weight: 600;
+color: #FFF;
+text-transform: uppercase;
+margin-top: 30px;
+}
+.banner-btn2{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px; 
+    border-radius: 48px;
+    background: #4EC5F7;  
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
 
 
+.img-banner{
+    height: 650px;
+    width: 650px;
+   
+}
 
 
-
-
+.banner-images{
+    margin-right: 200px;
+    height: 700px;
+    width: 711px;
+    margin-left: 200px;
+    
+}
+/* banner section end here */
 
 
 
@@ -84,6 +158,7 @@ color: #FF42A5;
     .icon{
         margin: 0px 5px;
     }
+    /* nav section end here */
 
 }
 
@@ -101,16 +176,12 @@ color: #FF42A5;
         align-items: center;
         height: 0px;
        margin-top: 100px;
-       
-       
-        
        } 
        ul{
         
         flex-direction: column;
         width: 100%;
         margin: auto;
-        
        }
        .nav-container{
         width: 100%;
@@ -119,7 +190,6 @@ color: #FF42A5;
        li a{
         display: block;
        margin-top: 64px;
-       
-       
        }
+       /* nav section end here */
 }
