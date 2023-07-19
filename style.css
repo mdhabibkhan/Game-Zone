@@ -211,16 +211,20 @@ margin-top: 30px;
    gap: 20px;
 }
 .img-play{
-    height: 330px;
+    height: 300px;
 
 }
 .img-on{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(./images/Rectangle\ 7.png), lightgray 50% / cover no-repeat ;
 
     background-repeat: no-repeat;
     color: #FFF;
-    width:500px;
+    width:280px;
     text-align: center;
+    border-radius: 10px;
+  
+}
+.on-content{
     padding-top: 100px;
 }
 /* online section end here */
@@ -507,7 +511,9 @@ footer{
 
        .gammer-container{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        margin: auto
+        ;
        }
        .gammer-img{
         width: 100%;
