@@ -58,12 +58,25 @@ color: #FF42A5;
     display: flex;
     height: 700px;
     justify-content: space-between;
-    align-items: center;
-    width: 900px;
+   align-items: center;
+   
+    width: 100%;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: start;
+
+    
+    
 
 }
 .banner-content{
     margin-left: 200px;
+    height: 700px;
+   padding-top: 300px;
+    
+
+    
+    
 }
 
 .banner-heading{
@@ -84,6 +97,7 @@ color: #FF42A5;
 
 .icon-banner{
     margin: 10px 12px;
+
 }
 .banner-btn1{
     padding: 21px 40px; 
@@ -117,18 +131,18 @@ margin-top: 30px;
 
 .img-banner{
     height: 650px;
-    width: 650px;
+    width: 550px;
    
 }
 
 
 .banner-images{
-    margin-right: 200px;
+    
     height: 700px;
     width: 711px;
-    margin-left: 200px;
-    
-}
+   
+}  
+
 /* banner section end here */
 
 
@@ -160,6 +174,23 @@ margin-top: 30px;
     }
     /* nav section end here */
 
+     /* banner section start here */
+
+     .banner-section{
+        width: 100%;
+     }
+     .banner-content{
+        width: 350px;
+        margin: 0px;
+     }
+     .banner-images{
+       width: 50%;
+     }
+     .img-banner{
+        height: 450px;
+        width: 370px;
+        margin-top: 75px;
+     }
 }
 
 
@@ -176,6 +207,7 @@ margin-top: 30px;
         align-items: center;
         height: 0px;
        margin-top: 100px;
+       
        } 
        ul{
         
@@ -192,4 +224,36 @@ margin-top: 30px;
        margin-top: 64px;
        }
        /* nav section end here */
-}
+
+       /* banner section start here */
+       .banner-section{
+        flex-direction: column-reverse;
+        height: 700px;
+        width: 100%;
+        margin-top: 850px;
+       
+        
+       }
+       .img-banner{
+        width: 400px;
+        height: 400px;
+        
+        
+       }
+       .banner-images{
+         width: 100%;
+         text-align: center;
+         
+         
+       }
+       
+       .banner-content{
+        width: 90%;
+       /* text-align: center; */
+       margin: auto;
+       margin-bottom: 100px;
+       padding: 130px 20px;
+       
+       }
+
+}    
