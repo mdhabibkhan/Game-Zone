@@ -655,13 +655,33 @@ footer{
              margin: auto;
              padding: 20px 20px;
            }
-           .games-container{
-            display:grid;
-            grid-template-columns: repeat(3,1fr);
+           /* .kinds of games start here */
+           .games{
             width: 100%;
-        
-        }
+            margin-top: 50px;
+            margin-bottom: 20px;
+           }
+         .games-container{
+            display: grid;
+            grid-template-columns:repeat(3, 1fr) ;
+            width: 100%;
+            
+         }
+         .games-img{
+            height: 30px;
+            width: 30px;
+         }
+         .games-title{
+            font-size: small;
+         }
+         .games-1{
+            margin-top: 30px;
+         }
+
 /* footer section start here */
+footer{
+    width: 100%;
+}
 .footer-content1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -670,11 +690,21 @@ footer{
     margin: auto;
     align-items: center;
 }
+.nav-img{
+    font-size:30px;
+}
+.nav-title{
+    font-size: 30px;
+}
 .carear{
   width: 100%;
   margin: 0%;
   padding-top: 20px;
+  font-size: small;
  
+}
+.icon{
+    font-size: 10px;
 }
 .icon-section{
     width: 100%;
@@ -693,17 +723,14 @@ footer{
     margin: 0px;
     text-align: center;
     margin-top: 20px;
+    font-size: small;
 
 }
 .footer-last{
     width: 60%;
     margin: auto;
     margin-top: 50px;
+    font-size: small;
 }
-.games-container{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-   
 
-}
 }           
