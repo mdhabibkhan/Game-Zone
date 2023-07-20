@@ -135,6 +135,7 @@ margin-top: 30px;
 }
 .gammer-container{
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     
@@ -410,6 +411,12 @@ footer{
      }
      /* banner section end here */
      /* gamers section start here */
+     .games-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+
+     }
      .gammer-content{
         width: 100%;
         padding: 0;
@@ -458,8 +465,22 @@ footer{
      }
      .terms-section{
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-right: 0px;
+     }
+     .carear{
+        margin-top: 30px;
+     }
+     .footer-content1{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
      }
+footer{
+    text-align: center;
+}
+   
+
 }
 
 
@@ -499,22 +520,17 @@ footer{
         flex-direction: column-reverse;
         height: 500px;
         width: 100%;
-        margin-top: 850px;
-
-        
-       
-        
+        margin-top: 800px;
+ 
        }
        .img-banner{
-        width: 400px;
-        height: 400px;
-        
-        
+        width: 350px;
+        height: 350px;
+
        }
        .banner-images{
          width: 100%;
          text-align: center;
-         
          
        }
        
@@ -525,38 +541,50 @@ footer{
        ;
        padding-top: 80px;
        margin: auto;
-       
-       
-       
        }
+       .banner-heading{
+        font-size: 40px;
+       }
+       .banner-game{
+        font-size: 80px;
+       }
+       
        /* gammer section start here */
-
+    
+       .gammer-section{
+        width: 100%;
+       margin: 0;
+       padding: 0%;
+       }
        .gammer-container{
-        flex-direction: column;
-        width: 90%;
-        margin: auto
-        ;
-       }
-       .gammer-img{
-        width: 100%;
-        padding: 0;
-       }
-       .game-img{
-        width: 90%;
-        margin: auto;
-       }
-       .gammer-content{
-        width: 100%;
-        margin: 0;
-        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+         text-align: center;
        }
        .gammer-des{
-        width: 80%;
-        padding-top: 40px;
+        
         margin: auto;
+        font-size: small;
+        width: 80%;
        }
+       
+       .gammer-content{
+        
+        align-items: center;
+       
+       }
+      
+       .gammer-img{
+        width: 400px;
+        height: 300px;
+        margin-bottom: 0px;
+       }
+       
 
        /* online content start here */
+       .online-section{
+        margin-top: 50px;
+       }
            .online-content{
             width: 100%;
            }
@@ -568,9 +596,13 @@ footer{
             padding: 10px 100px;
             
            }
+           .online-title{
+            font-size: 30px;
+           }
            .des{
             width: 90%;
             margin: auto;
+            font-size: small;
            }
            /* online section end */
            /* play section start here */
@@ -583,7 +615,9 @@ footer{
            }
            .play-des{
             width: 100%;
+            font-size: small;
            }
+           
            .play-content{
             width: 100%;
             text-align: center;
@@ -596,35 +630,35 @@ footer{
             text-align: center;
            }
            .play-img1{
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
             margin: auto;
             margin-bottom: 40px;
             
              
            }
            .play-img2{
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             margin: 0px;
             padding: 0px;
-            margin-top: 580px;
+            margin-top: 500px;
             margin-right: 300px; 
            }
            .play-title{
-            width: 90%;
+            width: 70%;
             margin: auto;
+            font-size: 40px;
            }
            .play-des{
-             width: 80%;
+             width: 60%;
              margin: auto;
              padding: 20px 20px;
            }
            .games-container{
             display:grid;
             grid-template-columns: repeat(3,1fr);
-            justify-content: space-between;
-            width: 90%;
+            width: 100%;
         
         }
 /* footer section start here */
